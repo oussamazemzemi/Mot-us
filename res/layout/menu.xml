@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/white"
+    >
+ 
+<!-- <item android:id="@+id/option" 
+      android:title="Options"
+      android:icon="@drawable/option">
+ 
+     <menu android:id="@+id/sousmenu">
+	 <item android:id="@+id/favoris"
+	       android:title="Favoris"   />	
+ 
+	 <item android:id="@+id/stats"
+	       android:title="Stats"  />
+     </menu>
+</item>
+  -->
+
+<item  
+    android:id="@+id/info"
+    android:title="Help"/>
+
+<item
+    android:id="@+id/quitter"
+    android:title="Exit"/>
+
+</menu>

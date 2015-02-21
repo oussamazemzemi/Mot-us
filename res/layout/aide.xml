@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:background="@drawable/fond" android:orientation="vertical">
+    <EditText android:layout_width="100dip" android:enabled="false" android:typeface="serif" android:background="@drawable/boulebleu2" android:textStyle="bold" android:id="@+id/EditText10" android:gravity="center" android:layout_height="80dip" android:layout_weight="1"></EditText>
+    <TextView android:id="@+id/textView1" android:text="Lettre inexistante dans le mot chercher" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1"></TextView>
+    <EditText android:layout_width="100dip" android:enabled="false" android:typeface="serif" android:background="@drawable/boulejaune" android:textStyle="bold" android:id="@+id/EditText10" android:gravity="center" android:layout_height="80dip" android:layout_weight="1"></EditText>
+    <TextView android:text="L'emplacement de la Lettre est juste" android:id="@+id/textView2" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_gravity="top" android:layout_weight="1"></TextView>
+    <EditText android:layout_width="100dip" android:enabled="false" android:typeface="serif" android:background="@drawable/boulerouge" android:textStyle="bold" android:id="@+id/EditText10" android:gravity="center" android:layout_height="80dip" android:layout_weight="1"></EditText>
+    <TextView android:text="Lettre existante dans le mot chercher" android:id="@+id/textView3" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight="1"></TextView>
+    <EditText android:text="" android:id="@+id/q" android:background="@drawable/quit" android:enabled="false" android:layout_width="40dip" android:layout_height="40dip" android:textStyle="bold" android:gravity="center" android:layout_weight="1" android:typeface="serif" android:layout_gravity="right"></EditText>
+</LinearLayout>

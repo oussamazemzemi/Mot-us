@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:id="@+id/widget31"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/fond"
+>
+<ImageView
+	android:id="@+id/widget32"
+	android:layout_height="wrap_content" 
+	android:layout_gravity="top"
+	android:background="@drawable/motuslogo" android:layout_width="match_parent">
+	</ImageView>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="30dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:orientation="horizontal">
+    <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    >
+	<EditText android:imeOptions="actionSearch" android:freezesText="true" android:hint="Mot-Us" android:maxLength="8" android:maxLines="1" android:id="@+id/editText1" android:textStyle="bold" android:lines="1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textCapWords">
+	    <requestFocus></requestFocus>
+	</EditText>
+	<LinearLayout android:orientation="horizontal" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+	android:layout_alignParentTop="false">
+	<TextView
+        android:id="@+id/main_timer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:textColor="@android:color/black"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:textColor="@android:color/black"
+	    android:text=":"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+	<TextView
+        android:id="@+id/main_timer_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+	    android:textColor="@android:color/black"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+	<ImageView
+	    android:id="@+id/send"
+	    android:layout_width="60dp"
+	    android:layout_height="60dp"
+	    android:src="@drawable/iconmotus"
+	    android:contentDescription="valider" />
+	
+	</LinearLayout>
+	</RelativeLayout>
+</LinearLayout>
+
+<TableLayout
+    android:layout_marginBottom="30dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:orientation="vertical"
+    android:layout_width="fill_parent" 
+    android:stretchColumns="*" 
+    android:id="@+id/tableLayout1" 
+    android:shrinkColumns="*" 
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:gravity="top">
+    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/tableRow1">
+        <EditText android:layout_width="20dip" android:typeface="serif" android:background="@drawable/boulebleu2" android:textStyle="bold" android:id="@+id/EditText01" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:typeface="serif" android:background="@drawable/boulebleu" android:textStyle="bold" android:id="@+id/EditText02" android:gravity="center" android:layout_height="30dip" android:inputType="none"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:typeface="serif" android:background="@drawable/boulebleu" android:textStyle="bold" android:id="@+id/EditText03" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:typeface="serif" android:background="@drawable/boulebleu" android:textStyle="bold" android:id="@+id/EditText04" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:typeface="serif" android:background="@drawable/boulebleu" android:textStyle="bold" android:id="@+id/EditText05" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:typeface="serif" android:background="@drawable/boulebleu" android:textStyle="bold" android:id="@+id/EditText06" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:typeface="serif" android:background="@drawable/boulebleu" android:textStyle="bold" android:id="@+id/EditText07" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:typeface="serif" android:background="@drawable/boulebleu" android:textStyle="bold" android:id="@+id/EditText08" android:gravity="center" android:layout_height="30dip"></EditText>
+    </TableRow>
+    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/tableRow2">
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu2" android:textStyle="bold" android:id="@+id/EditText09" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:textStyle="bold" android:id="@+id/EditText10" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText11" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText12" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText13" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText14" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText15" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText16" android:gravity="center" android:layout_height="30dip"></EditText>
+    </TableRow>
+    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/tableRow3">
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu2" android:textStyle="bold" android:id="@+id/EditText17" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:textStyle="bold" android:id="@+id/EditText18" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText19" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText20" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText21" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText22" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText23" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText24" android:gravity="center" android:layout_height="30dip"></EditText>
+    </TableRow>
+    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/tableRow4">
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu2" android:textStyle="bold" android:id="@+id/EditText25" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:textStyle="bold" android:id="@+id/EditText26" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText27" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText28" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText29" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText30" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText31" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText32" android:gravity="center" android:layout_height="30dip"></EditText>
+    </TableRow>
+    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/tableRow5">
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu2" android:textStyle="bold" android:id="@+id/EditText33" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:textStyle="bold" android:id="@+id/EditText34" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText35" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText36" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText37" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText38" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText39" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText40" android:gravity="center" android:layout_height="30dip"></EditText>
+    </TableRow>
+    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/tableRow6">
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu2" android:textStyle="bold" android:id="@+id/EditText41" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:textStyle="bold" android:id="@+id/EditText42" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText43" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText44" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText45" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText46" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText47" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText48" android:gravity="center" android:layout_height="30dip"></EditText>
+    </TableRow>
+    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/tableRow7">
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu2" android:textStyle="bold" android:id="@+id/EditText49" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:textStyle="bold" android:id="@+id/EditText50" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText51" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText52" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText53" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText54" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText55" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText56" android:gravity="center" android:layout_height="30dip"></EditText>
+    </TableRow>
+    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/tableRow8">
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu2" android:textStyle="bold" android:id="@+id/EditText57" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:textStyle="bold" android:id="@+id/EditText58" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText59" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText60" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText61" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText62" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText63" android:gravity="center" android:layout_height="30dip"></EditText>
+        <EditText android:layout_width="20dip" android:enabled="false" android:background="@drawable/boulebleu" android:id="@+id/EditText64" android:gravity="center" android:layout_height="30dip"></EditText>
+    </TableRow>
+</TableLayout>
+
+ 
+</LinearLayout>
+   
+
